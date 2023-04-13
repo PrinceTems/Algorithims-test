@@ -1,0 +1,286 @@
+
+
+body {
+    width: 100%;
+    height: 600px;
+    margin: none;
+    padding: none;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(239, 229, 229);
+
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+    font-size: 3vw;
+}
+
+h2 {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(4, 108, 74);
+    font-size: 2vw;
+}
+
+.con1 {
+    display: block;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin-left: 9vw;
+}
+
+.con2 {
+    display: block;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    margin-right: 9vw;
+}
+
+
+.first1 {
+    display: block;
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.first2 {
+    display: block;
+    font-size: 1.5vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.first1,.first2 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium';
+}
+
+input {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-left:9vw;
+    margin-right:9vw;
+    font-size: 1.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: blue;
+    outline: none;
+    box-shadow: 1px 5px 20px rgb(72, 59, 58);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.input1 {
+    display: block;
+    width: 14vw;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.input2 {
+    display: block;
+    width: 14vw;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.sign {
+    display: block;
+    margin-top: 6vw;
+    margin-bottom: 10vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5vw;
+    padding-top: 0.1vw;
+    font-size: 2vw;
+}
+
+button {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-left: 45vw;
+    background: none;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    padding: 2vw;
+    color: aqua;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn:hover {
+    background-color: lawngreen;
+    color: green;
+
+}
+
+
+
+@media screen and (max-width:1000px){
+
+    body{
+        width: 100vw;
+        height: 10vw;
+        margin: none;
+        padding: none;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        margin-top: 10vw;
+        background-color: rgb(235, 226, 226);
+
+    }
+
+    h1{
+        display: block;
+        font-size: 5vw;
+        text-align: center;
+        justify-content: center;
+        color: aqua;
+    }
+
+    h2{
+        display: block;
+        font-size: 4vw;
+        margin-bottom: 10vw;
+        text-align: center;
+        justify-content: center;
+        color: rgb(7, 89, 62);
+    }
+    .con1{
+        display: block;
+        float: left;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .con2{
+        display: block;
+        float: right;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .first1{
+        display: block;
+        font-size: 4vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .first2{
+        display: block;
+        font-size: 4vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .first1 , .first2{
+        color: blue;
+        font-family:'Franklin Gothic Medium';
+    }
+     
+    input{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 3vw;
+        border: none;
+        cursor: pointer;
+    }
+
+    input:hover{
+        background-color: blue;
+        outline: none;
+        box-shadow: 1px 5px 20px rgb(72, 59, 58);
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+    .input1{
+        display: block;
+        width: 14vw;
+        height: 10vw;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    .input2{
+        display: block;
+        width: 14vw;
+        height: 10vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sign{
+        display: block;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .label{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10vw;
+        padding-top: 9vw;
+        font-size: 4vw;
+        color: rgb(252, 254, 252);
+        background-color: lightgreen;
+        margin-left: 29vw;
+        margin-right: 29vw;
+        margin-bottom: 10vw;
+    }
+
+    button{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 43vw;
+        background: none;
+        border-radius: 2vw;
+        font-size: 3vw;
+        padding: 2vw;
+        color: aqua;
+        cursor: pointer;
+        outline: none;
+    }
+
+    #btn:hover{
+        background-color: lawngreen;
+        color: green;
+    
+    }
+    
+}
